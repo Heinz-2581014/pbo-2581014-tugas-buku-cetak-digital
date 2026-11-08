@@ -6,7 +6,6 @@ public class BukuCetak extends Buku {
         this.beratGram = beratGram;
     }
 
-    // Rp5.000 per 500 gram, sisa dibulatkan ke atas
     public int hitungOngkir() {
         return (beratGram + 499) / 500 * 5000;
     }
